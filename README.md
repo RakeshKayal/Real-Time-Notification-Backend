@@ -14,13 +14,13 @@ It is designed to be scalable, reliable, and easily integratable with frontend c
 
 ---
 
-## 📂 Project Structure
-real-time-communication-system/
-│── src/ # Main source code
-│── pom.xml # Maven dependencies
-│── application.properties # Configuration
-│── mvnw / mvnw.cmd # Maven wrapper
-│── README.md # Project documentation
+## 📂 Project Structure<br/>
+real-time-communication-system/<br/>
+│── src/ # Main source code<br/>
+│── pom.xml # Maven dependencies<br/>
+│── application.properties # Configuration<br/>
+│── mvnw / mvnw.cmd # Maven wrapper<br/>
+│── README.md # Project documentation<br/>
 ---
 
 ## 🛠️ Tech Stack
