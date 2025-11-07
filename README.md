@@ -5,12 +5,13 @@ It is designed to be scalable, reliable, and easily integratable with frontend c
 
 ---
 
-## 📌 Features
-- Real-time communication with **WebSockets**.
-- Supports **notifications** and **messaging**.
-- Built with **Spring Boot** and **Maven**.
-- Easily integratable with any frontend (React, Angular, Vue, etc.).
-- Configurable using `application.properties`.
+## Features
+- Real-time messaging using **WebSockets** and **STOMP**
+- User-friendly interface built with **Thymeleaf**
+- Multiple chat rooms support
+- Notifications for new messages
+- Responsive design
+- Backend API developed with **Spring Boot**
 
 ---
 
