@@ -7,7 +7,7 @@ This project is a **Spring Boot backend** that enables **real-time communication
 
 ## Features
 - Real-time messaging using **WebSockets** and **STOMP**
-- User-friendly interface built with **Thymeleaf**
+- User-friendly interface built with **react**
 - Multiple chat rooms support
 - Notifications for new messages
 - Responsive design
