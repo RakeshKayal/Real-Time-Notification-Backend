@@ -1,7 +1,7 @@
 # 🔴 Real-Time Communication System (Backend)
 
 This project is a **Spring Boot backend** that enables **real-time communication** features like messaging and notifications using **WebSockets**.  
-It is designed to be scalable, reliable, and easily integratable with frontend clients.
+
 
 ---
 
