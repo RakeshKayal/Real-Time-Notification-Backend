@@ -21,7 +21,8 @@ The system uses a **hybrid REST + WebSocket architecture**:
 - **REST API** handles authentication, message history, and offline message delivery on reconnect
 - **MySQL** persists all messages, users, groups, and friend relationships
 
-Client (React)
+```bash
+- Client (React)
     │
     ├── WebSocket (STOMP) ──► Spring Boot ──► Active user sessions
     │
