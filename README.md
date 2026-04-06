@@ -11,7 +11,6 @@ A full-stack social messaging platform built with **Spring Boot** and **WebSocke
 - **Friend request system** — Send, accept, and manage friend connections
 - **Message history** — Full chat history retrieval on login
 - **Secure authentication** — BCrypt (cost factor 12) password hashing + JWT token-based session management
-- **React frontend** — Responsive UI consuming both WebSocket and REST endpoints
 
 
 ##  Architecture
@@ -52,7 +51,6 @@ Client (React)
 | Real-time | WebSocket, STOMP |
 | Auth | JWT, BCrypt (cost factor 12) |
 | Database | MySQL |
-| Frontend | React |
 | Build | Maven |
 
 
@@ -62,7 +60,7 @@ Client (React)
 ### Prerequisites
 - Java 17+
 - MySQL 8+
-- Node.js (for frontend)
+
 
 ### Backend Setup
 
@@ -113,8 +111,7 @@ real-time-communication-system/
 │       │       ├── SocketConfig/                  # WebSocket & STOMP broker configuration
 │       │       └── RealTimeCommunicationApplication.java
 │       └── resources/
-│           └── application.properties
-├── frontend/                                      # React application
+│           └── application.properties                                    # React application
 ├── pom.xml
 └── README.md
 
