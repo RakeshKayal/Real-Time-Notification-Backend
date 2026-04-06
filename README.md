@@ -72,7 +72,7 @@ git clone https://github.com/YourUsername/real-time-communication-system.git
 cd real-time-communication-system
 
 # Configure database in src/main/resources/application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/real-time-communication
+spring.datasource.url=jdbc:mysql://localhost:3306/<your Db>
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 
