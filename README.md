@@ -2,7 +2,7 @@
 
 A full-stack social messaging platform built with **Spring Boot** and **WebSocket/STOMP**, supporting real-time direct messaging, group chats, friend requests, and offline message delivery — with BCrypt-secured authentication and JWT-based session management.
 
-## ✨ Features
+##  Features
 
 - **Real-time messaging** — Persistent bidirectional WebSocket connections using STOMP protocol
 - **Offline message delivery** — Messages stored in MySQL when recipient is offline; delivered automatically on reconnect via REST endpoint
@@ -14,7 +14,7 @@ A full-stack social messaging platform built with **Spring Boot** and **WebSocke
 - **React frontend** — Responsive UI consuming both WebSocket and REST endpoints
 
 
-## 🏗️ Architecture
+##  Architecture
 
 The system uses a **hybrid REST + WebSocket architecture**:
 
@@ -31,7 +31,7 @@ Client (React)
 
 
 
-## 🗄️ Database Schema
+##  Database Schema
 
 | Table | Purpose |
 |---|---|
@@ -44,7 +44,7 @@ Client (React)
 
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -57,7 +57,7 @@ Client (React)
 
 
 
-## ▶️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Java 17+
@@ -89,7 +89,7 @@ npm start
 ```
 ---
 
-## 🔐 Security
+##  Security
 
 - Passwords hashed using BCrypt with cost factor 12 — never stored in plain text
 - All API endpoints secured with JWT bearer token authentication
