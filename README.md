@@ -29,7 +29,7 @@ The system uses a **hybrid REST + WebSocket architecture**:
     └── REST API ───────────► Spring Boot ──► MySQL (messages, users, groups)
 
 
-
+```
 
 ##  Database Schema
 
