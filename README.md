@@ -77,11 +77,6 @@ spring.datasource.password=your_password
 
 # Run the application
 ./mvnw spring-boot:run
-
-
-### Frontend Setup
-
-
 ```
 ---
 
