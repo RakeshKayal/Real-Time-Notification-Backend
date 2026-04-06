@@ -82,10 +82,7 @@ spring.datasource.password=your_password
 
 ### Frontend Setup
 
-```bash
-cd frontend
-npm install
-npm start
+
 ```
 ---
 
