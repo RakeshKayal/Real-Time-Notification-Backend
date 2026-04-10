@@ -111,3 +111,28 @@ real-time-communication-system/
 ├── pom.xml
 └── README.md
 
+##  Load Testing (JMeter)
+
+- Simulated concurrent users using JMeter Thread Groups
+- Executed WebSocket + STOMP messaging scenarios
+- Achieved:
+  - ~45 requests/second throughput
+  - 0% error rate
+  - Stable latency under concurrent load
+
+### Test Setup
+- Threads: 100+
+- Loop Count: Configured for sustained load
+- Scenarios:
+  - WebSocket connection
+  - Group messaging
+  - Private messaging
+
+### Test Results
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-04-08 142514" src="https://github.com/user-attachments/assets/cc5334e5-5288-4801-9163-0ad5b7c63e66" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-08 142449" src="https://github.com/user-attachments/assets/861d7ec6-56b7-401a-b4d9-dd3772e423ab" />
+
+
+
