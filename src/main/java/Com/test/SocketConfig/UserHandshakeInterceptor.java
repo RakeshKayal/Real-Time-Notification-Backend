@@ -33,6 +33,7 @@ public class UserHandshakeInterceptor implements HandshakeInterceptor {
             ServerHttpRequest request,
             ServerHttpResponse response,
             WebSocketHandler wsHandler, Exception exception) {
+
     }
 
 
